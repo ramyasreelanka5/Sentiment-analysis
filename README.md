@@ -1,1 +1,71 @@
-# Sentiment-analysis
+# Sentiment Analysis of 2019 Indian General Elections Tweets
+
+This project analyzes public sentiment from over 46,000 tweets during the 2019 Indian General Elections. It includes data cleaning, preprocessing, sentiment classification, and geo-spatial visualization of sentiment trends across Indian states.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Data](#data)
+- [Pipeline](#pipeline)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Overview
+
+The goal is to evaluate public opinion during the 2019 Indian General Elections by mining Twitter data. The project uses NLP techniques to preprocess tweets, classify sentiment, and visualize sentiment trends geographically and over time.
+
+---
+
+## Features
+
+- Data cleaning (removal of noise, special characters, URLs)
+- Text preprocessing (tokenization, stopword removal, stemming/lemmatization)
+- Sentiment classification (positive, negative, neutral)
+- Geo-spatial mapping of sentiment across Indian states
+- Time-based plots of sentiment trends
+
+---
+
+## Data
+
+- **Source**: 46,000+ tweets related to 2019 Indian General Elections
+- **Fields**:
+  - Tweet text
+  - Timestamp
+  - User location (if available)
+  - Derived sentiment label
+
+*Note: Dataset is not included due to privacy and API terms.*
+
+---
+
+## Pipeline
+
+1. **Data Cleaning**
+   - Remove duplicates
+   - Filter noise (hashtags, mentions, URLs)
+   - Lowercase conversion
+
+2. **Preprocessing**
+   - Tokenization
+   - Stopword removal
+   - Stemming/Lemmatization
+
+3. **Sentiment Analysis**
+   - Rule-based or ML classifier (e.g., VADER, TextBlob, custom model)
+
+4. **Geo-Spatial Visualization**
+   - Map sentiment scores to Indian states
+   - Plot choropleth maps
+
+5. **Time Series Visualization**
+   - Aggregate sentiment over time
+   - Visualize mood shifts
+
+---
