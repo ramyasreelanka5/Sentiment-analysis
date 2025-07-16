@@ -2,18 +2,6 @@
 
 This project analyzes public sentiment from over 46,000 tweets during the 2019 Indian General Elections. It includes data cleaning, preprocessing, sentiment classification, and geo-spatial visualization of sentiment trends across Indian states.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Data](#data)
-- [Pipeline](#pipeline)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-
 ---
 
 ## Overview
