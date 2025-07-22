@@ -52,6 +52,46 @@ The goal is to evaluate public opinion during the 2019 Indian General Elections 
    - Map sentiment scores to Indian states
    - Plot choropleth maps
 
+---
+## 📊 Technologies Used
+
+- **Python**
+- **Data Handling:** `Pandas`, `NumPy`
+- **Machine Learning:** `scikit-learn`
+- **Visualization:** `Matplotlib`, `Seaborn`  
+  *(Optional: `WordCloud`, `Plotly` for enhanced visuals)*
+- **Sentiment Analysis:** `NLTK`, `TextBlob`
+
+---
+
+## 🚀 How to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/political-sentiment-analysis.git
+   cd political-sentiment-analysis
+   ```
+
+2. **Install required libraries:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Launch the notebook:**
+   ```bash
+   jupyter notebook "Sentiment analysis.ipynb"
+   ```
+
+---
+
+## 📈 Sample Analyses
+
+- 📅 Sentiment over time  
+- 🗣️ Most popular tweets by sentiment  
+- 🧾 Party-wise tweet distribution  
+- 🔥 Influencer or viral tweet detection  
+
+
 5. **Time Series Visualization**
    - Aggregate sentiment over time
    - Visualize mood shifts
