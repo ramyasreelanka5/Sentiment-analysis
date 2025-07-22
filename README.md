@@ -68,8 +68,8 @@ The goal is to evaluate public opinion during the 2019 Indian General Elections 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/political-sentiment-analysis.git
-   cd political-sentiment-analysis
+   git clone https://github.com/ramyasreelanka5/Sentiment-analysis.git
+   cd Sentiment-analysis
    ```
 
 2. **Install required libraries:**
